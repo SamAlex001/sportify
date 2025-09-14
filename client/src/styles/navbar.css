@@ -1,0 +1,267 @@
+   .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--tert);
+      width: 100%;
+   }
+
+   .navbar ul li img {
+      filter: grayscale(0) brightness(1);
+      height: 2rem;
+      position: relative;
+      top: 0.2rem;
+      opacity: 1 !important;
+   }
+
+   .navbar ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--prim);
+      padding-top: 24px;
+      padding-bottom: 24px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height: 34px;
+      border-radius: .9rem;
+   }
+
+   .nav-links {
+      list-style: none;
+      display: inline-block;
+      margin-right: 20px;
+   }
+
+   .nav-links a {
+      text-decoration: none;
+      opacity: 0.9;
+      transition: color 0.3s ease;
+   }
+
+   .nav-links a:hover {
+      color: var(--tert);
+   }
+
+   .nav-links.active {
+      opacity: 1;
+      transition: color 0.1s ease;
+      font-weight: 600;
+      color: var(--tert);
+   }
+
+   .nav-link {
+      color: black;
+      text-decoration: none;
+      transition: color 0.2s ease;
+   }
+
+   .nav-link:hover {
+      color: var(--tert);
+   }
+
+   .nav-link.active {
+      font-weight: 600;
+      color: var(--tert);
+      opacity: 1;
+   }
+
+   .navbar ul li {
+      color: white;
+      padding: 5px 10px;
+      list-style-type: none;
+      margin: 12px;
+   }
+
+   .navbar a {
+      text-decoration: none;
+      color: white;
+   }
+
+   #navbar-create-post {
+      border: none;
+      padding: 0.4rem;
+      border-radius: .2rem;
+      color-scheme: black;
+      color: white;
+      background-color: #397367;
+      cursor: pointer;
+   }
+
+   #navbar-create-post:hover {
+      color: white;
+      background-color: #397367c8;
+   }
+
+   .navbar-user-login-signup-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .4rem;
+   }
+
+   .navbar-user-login-btn,
+   .navbar-user-signup-btn {
+      border: none;
+      padding: 0.34rem;
+      border-radius: .2rem;
+      background-color: var(--tert);
+      color: black;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: -2px 10px 16px -5px rgba(0, 0, 0, 0.29);
+      -webkit-box-shadow: -2px 10px 16px -5px rgba(0, 0, 0, 0.29);
+      -moz-box-shadow: -2px 10px 16px -5px rgba(0, 0, 0, 0.29);
+      transition: all 0.2s ease-in-out;
+   }
+
+   .navbar-user-login-btn:hover,
+   .navbar-user-signup-btn:hover {
+      box-shadow: -2px 10px 16px -5px rgba(255, 255, 255, 0.208);
+      -webkit-box-shadow: -2px 10px 16px -5px rgba(255, 255, 255, 0.208);
+      -moz-box-shadow: -2px 10px 16px -5px rgba(255, 255, 255, 0.208);
+   }
+
+   .navbar-loader-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.5);
+      z-index: 100;
+   }
+
+   .navbar-user-options-wrapper {
+      background-color: var(--prim);
+      position: relative;
+      top: 68px;
+      left: 50px;
+      width: 200px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .navbar-options-arrow {
+      position: inherit;
+      color: #fff;
+      top: 13px;
+   }
+
+   .navbar-user-profile-btn {
+      position: relative;
+   }
+
+   .navbar-user-settings {
+      position: relative;
+      top: -4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .navbar-username {
+      position: relative;
+      top: 4rem;
+   }
+
+   .navbar-options-arrow {
+      position: relative;
+      top: 13px;
+   }
+
+   .navbar-user-options-wrapper {
+      position: absolute;
+      top: 108px;
+      left: -5rem;
+   }
+
+   .navbar-user-logout-btn {
+      margin-bottom: .8rem;
+   }
+
+   /* Responsive Navbar */
+   @media (768px <=width <=1200px) {
+      .navbar {
+         font-size: 11px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+      }
+
+      .navbar-container {
+         width: 90%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 0.1rem;
+      }
+
+      .navbar-user-login-signup-container {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .navbar-user-signup-btn,
+      .navbar-user-login-btn {
+         width: 70px;
+         height: 20px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .navbar-user-options-wrapper {
+         position: absolute;
+         top: 50px;
+         left: 0;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+      }
+
+      .navbar-options-arrow {
+         position: inherit;
+         color: #fff;
+         top: 13px;
+      }
+
+      .navbar-user-profile-btn {
+         position: relative;
+      }
+
+      .navbar-user-settings {
+         position: relative;
+         top: -2rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .navbar-username {
+         position: relative;
+         top: 2rem;
+      }
+
+      .navbar-options-arrow {
+         position: relative;
+         top: 13px;
+      }
+
+      .navbar-user-options-wrapper {
+         position: absolute;
+         top: 70px;
+         left: -1rem;
+         width: 100px;
+      }
+   }

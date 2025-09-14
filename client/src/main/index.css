@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* 
+Primary: #397367 
+Secondary: #5DA399
+Tertiary: #FFFFFF
+
+Black 01: #252525
+Black 02: #35393C
+*/
+
+:root {
+   --prim: #397367;
+   --seco: #5DA399;
+   --tert: #FFFFFF;
+   --B01: #252525;
+   --B02: #35393C;
+   margin: 0;
+   padding: 0;
+}

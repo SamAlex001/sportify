@@ -1,0 +1,50 @@
+.edit-post-container {
+   margin-top: 2rem;
+   margin-left: 4rem;
+   margin-right: 4rem;
+}
+
+.ep-contentWrapper {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.ep-titleWrapper,
+.ep-summaryWrapper,
+.ep-fileWrapper {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 0.6rem;
+}
+
+.ep-btnWrapper,
+.ep-editorWrapper {
+   margin-top: 1rem;
+}
+
+.ep-goBack-btnWrapper,
+.ep-fileWrapper {
+   margin-bottom: 1rem;
+}
+
+.ep-update-btn,
+.ep-goBack-btn {
+   border: none;
+   padding: 0.4rem;
+   border-radius: .2rem;
+   color-scheme: black;
+   color: white;
+   background-color: #397367;
+   cursor: pointer;
+}
+
+.ep-loading {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10%;
+}

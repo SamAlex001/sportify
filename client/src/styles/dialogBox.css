@@ -1,0 +1,8 @@
+#alert-dialog-title {
+   color: var(--tert);
+   background-color: var(--prim);
+}
+
+.dialog-button-text {
+   color: var(--prim);
+}

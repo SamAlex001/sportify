@@ -1,0 +1,66 @@
+.searchBar-container {
+   margin-top: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: .4rem;
+}
+
+.searchBar-input {
+   height: 1.6rem;
+   width: 25rem;
+}
+
+.search-btn {
+   border: none;
+   padding: 0.36rem;
+   border-radius: .2rem;
+   color-scheme: black;
+   color: white;
+   background-color: #397367;
+   cursor: pointer;
+   text-align: center;
+   font-size: .91rem;
+}
+
+.searchBar-container-wrapper {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.explore-posts {
+   flex: 1;
+}
+
+.explore-footer {
+   margin-top: auto;
+   width: 100%;
+}
+
+@media (768px <=width <=1200px) {
+   .searchBar-container {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .4rem;
+   }
+
+   .searchBar-input {
+      height: 1.6rem;
+      width: 25rem;
+   }
+
+   .search-btn {
+      border: none;
+      padding: 0.36rem;
+      border-radius: .2rem;
+      color-scheme: black;
+      color: white;
+      background-color: #397367;
+      cursor: pointer;
+      text-align: center;
+      font-size: .91rem;
+   }
+}

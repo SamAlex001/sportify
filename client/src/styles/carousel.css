@@ -1,0 +1,26 @@
+.mantine-Carousel-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45rem;
+  opacity: 1;
+}
+
+.mantine-Carousel-control {
+  background-color: var(--prim);
+  color: white;
+}
+
+.home-carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+
+@media (768px <=width <=1200px) {
+  .carousel-header  {
+    height: 200px;
+  }
+}
